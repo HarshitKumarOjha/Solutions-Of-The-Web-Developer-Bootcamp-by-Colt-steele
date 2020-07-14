@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>specificity</title>
+	<!-- specificity is a css rule means that we can have multiple styles targeting one element.but the more specific is the targeting , the more speccifically the element is gooiing to be selected -->
+	<style type="text/css">
+		body{
+			color : red;
+		}
+		ul{
+			color: blue;
+			}
+		li{
+			color:orange;
+		}
+		.highlight{
+			color:green;
+		}
+		#special{
+			color:pink;
+		}
+	</style>
+</head>
+<body>
+
+<p>HELLO!!!</p>
+
+<ul>
+	<li id="special" class="highlight">John</li>
+	<li>Paul</li>
+	<li>George</li>
+	<li class="highlight">Ringo</li>
+</ul>
+</body>
+</html>

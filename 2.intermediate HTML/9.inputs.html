@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Inputs Demo</title>
+</head>
+<body>
+
+<p>Do you prefer cats or Dogs?</p>
+<form>
+	<label for="Dogs">Dogs:</label>
+	<input id="Dogs" type="radio" name="petChoice" value="DOGS">
+
+	<label for="cats">Cats:</label>
+	<input id="cats" type="radio" name="petChoice" value="CATS">
+
+<!-- By putting same name attribute we can pick a single choice only -->
+
+<p>What's your favorite color?</p>
+
+<select name="color">
+	<option>Red</option>
+	<option>Green</option>
+	<option>Blue</option>
+</select>
+
+<p>What's your current mood?</p>
+
+<!-- by using select we can create a dropdown menu -->
+
+<select name="mood">
+	<option value="Happy"> :) </option>
+	<option value="Neutral"> :] </option>
+	<option value="Sad"> :( </option><!--if u will not put value in this case it will show nothin in url bar-->
+</select>
+
+<p> Write Your Text Here: </p>
+
+<!-- "textarea" is used to write multiple lines -->
+<textarea name="paragraph" rows="10" cols="50"></textarea>
+
+	<button>Go!</button>
+</form>
+
+
+</body>
+</html>

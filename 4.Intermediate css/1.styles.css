@@ -1,0 +1,68 @@
+/*Font Family : */
+p{
+	font-family: "arial";
+}
+
+h1{
+	font-family: "georgia";
+
+}
+
+/*font size : */
+
+body{
+	font-size:10px;
+}
+
+/*h1{
+	font-size: 100px;
+}*/
+
+h1{
+	font-size: 5.0em;
+
+	/*5.0em means it will increase the size of h1 by 5X of body font:  */
+}
+
+p{
+	font-size: 2.0em;
+}
+
+span{
+	font-size: 2.0em;
+}
+
+/*Font-Weight*/
+
+p{
+	font-weight:bold;
+	/*it decides the thickness of the font*/
+	/*the numeric values that can used are range from 100-800 (every hundred)*/
+
+}
+
+/*line-height*/
+
+p{
+	line-height:1.9;
+}
+
+/*Text-Align*/
+
+h1{
+	text-align:center ;
+}
+
+p{
+	text-align: center;
+}
+
+/*text-decoration*/
+
+p{
+	text-decoration:underline;
+}
+
+h1{
+	text-decoration:underline overline purple;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lables in forms</title>
+</head>
+<body>
+
+<h1>Login</h1>
+
+<!-- we use lables for people who are blind and use screed reader -->
+
+<!-- <form action="http://www.wikipedia.org" method="get">
+	
+	<label>
+	  Username:
+	  <input type="text" name="Username" placeholder="Username">
+	</label>
+
+  <label>
+  	Password:
+    <input type="password" name="password" placeholder="password">
+ </label>
+
+	<input type="submit"> -->
+
+	<!-- another way of labling -->
+
+<form action="http://www.wikipedia.org" method="get">
+	
+	<label for="Username">Email:</label>
+	<input id="Username" type="Email"  name="Username" placeholder="Email" required>
+
+<!-- "required" is the attribute for the form validation. through which a form can't be left empty	 -->
+<!-- by selectng the type="Email" and attribute requred , it shows the validation of "@"" sign -->
+
+  <label for="password">Password:</label>
+  <input id="password" type="password" name="password" placeholder="password" required>
+
+	<input type="submit">
+
+</form>
+
+
+</body>
+</html>

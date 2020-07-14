@@ -1,0 +1,29 @@
+body{
+	background: pink;
+	/*background: url(https://bit.ly/3bwKd52);
+	background-repeat: no-repeat;
+	background-size: cover;*/
+}
+
+h1{
+	color: rgba(0,200,100,0.8);
+
+	/*border-color:purple;
+	border-width:5px;
+	border-style:solid;*/
+
+	border: 2px rgb(255,100,80) solid;
+}
+
+/*width
+color
+style*/
+
+h4{
+	color:black;
+	background: rgb(255,100,80);
+}
+
+li{
+	color: #000000;
+}
