@@ -20,14 +20,14 @@ inline : work inside a line
 
 <p> : represents paragraph of text. Paragraphs are block laevel elements.
 
-<b> : blod tag (inline element) but this is not the best way in html5 to bold 
+<b> : bold tag (inline element) but this is not the best way in html5 to bold 
       so we have to use <strong> which is much more meaning full.
 
 <i> : italicise the text but we will use <em> which is basically same but better.
 
 <b> & <i> : are about the style ... but <strong> & <em> are more about the look.
 
-lists : ordered (numbers) and unordered (bullet pints) lists...lists can be nested.
+lists : ordered (numbers) and unordered (bullet points) lists...lists can be nested.
 <ol>
     <li> List Items </li>
 </ol>
@@ -42,7 +42,7 @@ lists : ordered (numbers) and unordered (bullet pints) lists...lists can be nest
 attributes : additional information to tags 
 
 <tag name="value"></tag>
-<img src="corgi.png>
+<img src="corgi.png">
 <p class="selected"> woof woof </p>
 <a href="www.google.com"> click me to go to google </a>    (inline element)
 <link rel="stylesheet" type="text/css" href="style.css">
