@@ -38,6 +38,7 @@ represents the content of an html document.
 - `<b>` & `<i>` : are about the style ... but `<strong>` & `<em>` are more about the look.
 
 ### lists : 
+
 ordered (numbers) and unordered (bullet points) lists...lists can be nested.
 ```html
 <ol>
@@ -112,20 +113,27 @@ putting input tags inside the Form tags makes a form. form is a block lvl elemen
 
 we use lables for people who are blind and use screen reader.
 
+**example:**
+
+```html
+<label for="username"> Username: </label>
+<input id="username" type="text">
+```
+
 ### validations: 
 - "required" is the attribute for the form validation. through which a form can't be left empty
-- by selecting the type="Email" and attribute reqiured , it shows the validation of "@"" sign
+- by selecting the `type="Email"` and attribute `reqiured` , it shows the validation of "@" sign
 
 **example:**
 ```html
 <form action="http://www.wikipedia.org" method="get">
-	<label for="Username">Email:</label>
-	<input id="Username" type="Email"  name="Username" placeholder="Email" required>
+    <label for="Username">Email:</label>
+    <input id="Username" type="Email"  name="Username" placeholder="Email" required>
 
     <label for="password">Password:</label>
     <input id="password" type="password" name="password" placeholder="password" required>
 
-	<input type="submit">
+    <input type="submit">
 </form>
 ```
 
